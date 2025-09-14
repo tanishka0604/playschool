@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aarambh Foundation — Teacher Training Program</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+    }
+
+    /* Header */
+    .site-header {
+      width: 100%;
+      padding: 15px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #fff7f0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+    .brand-text h1 {
+      font-size: 22px;
+      margin: 0;
+      color: #333;
+    }
+    .nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .nav a {
+      text-decoration: none;
+      color: #444;
+      font-weight: 600;
+    }
+    .nav a:hover {
+      color: #ff6f61;
+    }
+
+    /* Sections */
+    .section {
+      padding: 60px 10%;
+    }
+    .section h2 {
+      text-align: center;
+      font-size: 30px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+    .section p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #444;
+    }
+
+    /* Cards */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #eeeffc;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-top: 0;
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: black;
+      
+    }
+    .card ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    /* Vision and Welcome */
+    .highlight {
+      background: #e6f7ff;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 40px;
+    }
+
+    /* Inquiry Form */
+    .inquiry-form {
+      background: #fff0f5;
+      border-radius: 15px;
+      padding: 35px;
+      max-width: 650px;
+      margin: 0 auto;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+    .inquiry-form h3 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ff6f61;
+    }
+    .inquiry-form label {
+      display: block;
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+    .inquiry-form input,
+    .inquiry-form textarea,
+    .inquiry-form select {
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+    .inquiry-form button {
+      width: 100%;
+      background: #ff6f61;
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .inquiry-form button:hover {
+      background: #e65b50;
+    }
+
+    /* Footer */
+    .site-footer {
+      background: #fff7f0;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #555;
+      margin-top: 60px;
+    }
+
+    .main{
+      background-color: #fff7f0;
+    }
+
+  </style>
+</head>
+<div class="main">
+  <body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="brand">
+      <img src="foundation logo.jpeg" alt="logo">
+      <div class="brand-text">
+        <h1>AARAMBH FOUNDATION</h1>
+      </div>
+    </div>
+    
+  </header>
+
+  <!-- Welcome -->
+  <section class="section">
+    <div class="highlight">
+      <h2>Welcome to Aarambh’s Teacher Training Program</h2>
+      <p>
+        At Aarambh Preschool, we believe that every child’s journey of learning begins with love, curiosity, and confidence. 
+        Our teachers are guides, mentors, and role models who help shape the personalities and potential of our young learners. 
+        This program empowers educators with the right skills, mindset, and tools to create a nurturing, engaging, and joyful environment.
+      </p>
+    </div>
+  </section>
+
+  <!-- Vision -->
+  <section class="section">
+    <div class="highlight">
+      <h2>Our Vision</h2>
+      <p>
+        “To build a generation of confident, curious, and compassionate learners by empowering educators to create safe, inclusive, 
+        and stimulating classrooms where little minds grow.”
+      </p>
+    </div>
+  </section>
+
+  <!-- Objectives -->
+  <section class="section">
+    <h2>Program Objectives</h2>
+    <div class="card-grid">
+      <div class="card"><h3>Child-Centric Learning</h3><p>Support children’s emotional, cognitive & social growth.</p></div>
+      <div class="card"><h3>Interactive Teaching</h3><p>Playful, activity-based, and inquiry-driven methods.</p></div>
+      <div class="card"><h3>Positive Management</h3><p>Build trust and foster a supportive classroom culture.</p></div>
+      <div class="card"><h3>Parent Collaboration</h3><p>Ensure parents are part of their child’s journey.</p></div>
+      <div class="card"><h3>Health & Well-being</h3><p>Focus on hygiene, nutrition, and mental health.</p></div>
+      <div class="card"><h3>Continuous Learning</h3><p>Encourage professional growth & reflection.</p></div>
+    </div>
+  </section>
+
+  <!-- Modules -->
+  <section class="section">
+    <h2>Key Training Modules</h2>
+    <div class="card-grid">
+      <div class="card"><h3>Child Development</h3></div>
+      <div class="card"><h3>Creative Lesson Planning</h3></div>
+      <div class="card"><h3>Games & Play</h3></div>
+      <div class="card"><h3>Behavioral Challenges</h3></div>
+      <div class="card"><h3>Communication Skills</h3></div>
+      <div class="card"><h3>Inclusive Environments</h3></div>
+      <div class="card"><h3>Health & Hygiene</h3></div>
+      <div class="card"><h3>Mindfulness Support</h3></div>
+    </div>
+  </section>
+
+  <!-- Methodology -->
+  <section class="section">
+    <h2>Training Methodology</h2>
+    <div class="highlight">
+      <p>
+        ✔ Hands-on workshops · ✔ Role-play activities · ✔ Peer feedback · ✔ Guided observation · 
+        ✔ Group discussions · ✔ Periodic reflections
+      </p>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="section">
+    <h2>Benefits of Joining</h2>
+    <div class="card-grid">
+      <div class="card"><h3>Gain practical teaching tools</h3></div>
+      <div class="card"><h3>Build confidence in handling young children</h3></div>
+      <div class="card"><h3> Learn how to create joyful learning spaces</h3></div>
+      <div class="card"><h3>Enhance communication and emotional intelligence</h3></div>
+      <div class="card"><h3>Get certified and recognized as an Aarambh-trained educator</h3></div>
+      <div class="card"><h3>Become part of a community that values learning, creativity, and care</h3></div>
+    </div>
+  </section>
+
+   <section class="section">
+    <h2>Who Should Join?</h2>
+    <div class="card-grid">
+      <div class="card"><h3>Preschool teachers, assistant teachers, and caregivers</h3></div>
+      <div class="card"><h3>Educators passionate about early childhood development</h3></div>
+      <div class="card"><h3> Individuals seeking to start a career in preschool education</h3></div>
+      <div class="card"><h3>Parents interested in understanding how to support their child’s learning journey</h3></div>
+      
+    </div>
+  </section>
+
+  <!-- Inquiry Form -->
+  <section class="section">
+    <div class="inquiry-form">
+      <h3>Teacher Training Inquiry Form – Aarambh Preschool</h3>
+      <form>
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email Address:</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number:</label>
+        <input type="tel" placeholder="Enter contact number" required>
+
+        <label>Do you currently work with children?</label>
+        <select required>
+          <option value="">Select</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+
+        <label>Why do you want to join?</label>
+        <textarea rows="3" placeholder="One or two lines"></textarea>
+
+        <label>Preferred Training Mode:</label>
+        <select required>
+          <option value="">Select</option>
+          <option>Online</option>
+          <option>In-person</option>
+          <option>Hybrid</option>
+        </select>
+
+        <button type="submit">Submit Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <small>© <span id="year"></span> AARAMBH FOUNDATION · Teacher Training Program</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</div>
+</html>
